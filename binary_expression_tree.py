@@ -96,7 +96,7 @@ class BinaryExpressionTree:
         # calls to the left and right operands.
 
         # identify lowest operator
-        lowest_operator = -1  # corresponds to in index in BinaryExpressionTree.OPERATORS
+        lowest_operator = -1  # corresponds to an index in BinaryExpressionTree.OPERATORS
         lowest_operator_index = None
         brackets_level = 0
         lowest_operator_brackets_level = -1
